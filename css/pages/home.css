@@ -13,3 +13,33 @@
 @import "../components/progress-bar.css";
 
 /* Custom style goes bewlow this comment line */
+
+/* HERO - start */
+.hero{
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+}
+
+.hero > .logo{
+    height: 60px;
+
+}
+
+.hero > .title{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.hero > .description{
+    font-size: 20px;
+    
+
+}
+
+/* HERO - end */
+
+/* MAIN - start */
+/* MAIN -end */
