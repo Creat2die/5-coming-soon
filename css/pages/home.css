@@ -28,6 +28,7 @@ section.bg-main-image{
     flex-direction: column;
     gap: 30px;
     display: flex;
+    align-items: center;
 }
 
 .hero > .logo{
