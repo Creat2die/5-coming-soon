@@ -99,6 +99,30 @@ section.bg-main-image{
         padding: 15px 0;
     }
 
+    .social{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    .social > a{
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        line-height: 50px;
+        border-radius: 100px;
+        transition: all 0.5s;
+    }
+
+    .social > a:hover{
+        background-color: white;
+        color:var(--main-color);
+    }
+
     .footer-bottom{
         display: flex;
         flex-direction: column;
