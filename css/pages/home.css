@@ -15,7 +15,7 @@
 /* Custom style goes bewlow this comment line */
 
 /* HERO - start */
-section.bg-main{
+section.bg-main-image{
     background-image: url(../../img/background-image.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -114,11 +114,30 @@ section.bg-main{
     .footer-bottom > .futeriukai{
         display: flex;
         justify-content: center;
-        gap:20px;
+        gap:30px;
     }
 
     .footer-bottom a{
         color:white;
     }
 
+
+    .futeriukai > *{
+        position: relative;
+    } 
+
+    .futeriukai > *::after{
+        content: "";
+        width: 0.7px;
+        height: 20px;
+        background-color: white;
+
+        position: absolute;
+        top: 50%;
+        right: -15px;
+        transform: translate(50%, -50%);
+    }
+    .futeriukai > *:last-child::after{
+        display: none;
+    }
 /*FOOTER - end */
