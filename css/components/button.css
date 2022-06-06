@@ -1,9 +1,16 @@
 .btn{
-    padding: 18px 30px;
+    padding: 1em 1.66em;
     border-radius: 6px;
     font-size: 18px;
     line-height: 18px;
     background-color: red;
     color: white;
-    border: none;   
+    border: none;  
+    text-align: center; 
+    text-decoration: none;
+}
+
+.btn.btn-circle{
+    padding: 1em;
+    width: 3em;
 }

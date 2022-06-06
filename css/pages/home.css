@@ -47,6 +47,23 @@ section.bg-main-image{
     
 
 }
+
+.subscribe{
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+.form.subscribe > input {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.form.subscribe ::placeholder{
+    color: white;
+}
+
 /* HERO - end */
 
 /* MAIN - start */
@@ -169,6 +186,13 @@ section.bg-main-image{
     }
     .futeriukai > *:last-child::after{
         display: none;
+    }
+
+    .back-to-top{
+        border-radius: 100px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
     }
 /*FOOTER - end */
 
