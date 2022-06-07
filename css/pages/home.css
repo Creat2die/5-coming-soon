@@ -112,13 +112,14 @@ section.bg-main-image{
 
 /*FOOTER - start*/
     .container{
-        padding-top: 0;
+        .padding-top: 0;
     }
     .container > .row{
         border-bottom: 2px solid white;
         display: flex;
         justify-content: center;
         padding: 15px 0;
+        gap:40px;
     }
 
     .social{
